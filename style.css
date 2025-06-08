@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, rgb(71, 14, 71), rgb(202, 48, 202));
+    
+    margin: 160px auto;
+
+}
+
+.text{
+    padding: 10px;
+    text-align: center;
+}
+
+textarea{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    resize: none;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.count{
+    margin-top: 10px;
+}
+
+.warning{
+    display: none;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
